@@ -1,4 +1,4 @@
-local modpath = minetest.get_modpath("mcr_terrain")
+local modpath = minetest.get_modpath("rc_terrain")
 
 
 

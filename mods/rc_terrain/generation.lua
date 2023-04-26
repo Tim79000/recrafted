@@ -1,10 +1,10 @@
-minetest.register_alias('mapgen_stone', 'mcr_terrain:stone')
+minetest.register_alias('mapgen_stone', 'rc_terrain:stone')
 
 	minetest.register_biome({
 		name = "forest",
-		node_top = "mcr_terrain:grassy_dirt",
+		node_top = "rc_terrain:grassy_dirt",
 		depth_top = 1,
-		node_filler = "mcr_terrain:dirt",
+		node_filler = "rc_terrain:dirt",
 		depth_filler = 4,
 --		node_dungeon = "terraific:cobbled_gorock",
 --		node_dungeon_alt = "terraific:moldy_cobbled_gorock",
@@ -17,7 +17,7 @@ minetest.register_alias('mapgen_stone', 'mcr_terrain:stone')
 
 	minetest.register_biome({
 		name = "dirt_shore",
-		node_filler = "mcr_terrain:dirt",
+		node_filler = "rc_terrain:dirt",
 		depth_filler = 5,
 --		node_dungeon = "terraific:cobbled_gorock",
 --		node_dungeon_alt = "terraific:moldy_cobbled_gorock",
@@ -31,7 +31,7 @@ minetest.register_alias('mapgen_stone', 'mcr_terrain:stone')
 
 	minetest.register_biome({
 		name = "gravel_shore",
-		node_filler = "mcr_terrain:gravel",
+		node_filler = "rc_terrain:gravel",
 		depth_filler = 5,
 --		node_dungeon = "terraific:cobbled_gorock",
 --		node_dungeon_alt = "terraific:moldy_cobbled_gorock",
@@ -45,9 +45,9 @@ minetest.register_alias('mapgen_stone', 'mcr_terrain:stone')
 
 	minetest.register_biome({
 		name = "warm_ocean",
-		node_top = "mcr_terrain:sand",
+		node_top = "rc_terrain:sand",
 		depth_top = 1,
-		node_filler = "mcr_terrain:sandstone",
+		node_filler = "rc_terrain:sandstone",
 		depth_filler = 4,
 --		node_cave_liquid = "default:water_source",
 --		node_dungeon = "terraific:cobbled_gorock",

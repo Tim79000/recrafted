@@ -1,8 +1,8 @@
 
-mcr_sounds = {}
+rc_sounds = {}
 
 
-function mcr_sounds.stone(table)
+function rc_sounds.stone(table)
     table = table or {}
     table.dig = table.dig or
             {name = "stone",gain=0.2}
@@ -16,7 +16,7 @@ function mcr_sounds.stone(table)
     return table
 end
 
-function mcr_sounds.wood(table)
+function rc_sounds.wood(table)
     table = table or {}
     table.dig = table.dig or
             {name = "wood",gain=0.3}
@@ -31,7 +31,7 @@ function mcr_sounds.wood(table)
 end
 
 
-function mcr_sounds.sand(table)
+function rc_sounds.sand(table)
     table = table or {}
     table.dig = table.dig or
             {name = "sand",gain=0.09}
@@ -47,7 +47,7 @@ function mcr_sounds.sand(table)
     return table
 end
 
-function mcr_sounds.grass(table)
+function rc_sounds.grass(table)
     table = table or {}
     table.dig = table.dig or
             {name = "leaves",gain=0.2}
@@ -60,7 +60,7 @@ function mcr_sounds.grass(table)
     --default.node_sound_defaults(table)
     return table
 end
-function mcr_sounds.dirt(table)
+function rc_sounds.dirt(table)
     table = table or {}
     table.dig = table.dig or
             {name = "dirt",gain=0.5}
@@ -73,7 +73,7 @@ function mcr_sounds.dirt(table)
     --default.node_sound_defaults(table)
     return table
 end
-function mcr_sounds.wool(table)
+function rc_sounds.wool(table)
     table = table or {}
     table.dig = table.dig or
             {name = "wool",gain=0.5}

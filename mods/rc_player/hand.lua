@@ -1,13 +1,13 @@
 minetest.register_item(":", {
     type = "none",
-    wield_image = "mcr_player_nothing.png"
+    wield_image = "rc_player_nothing.png"
 })
 
 -- This is a fake node that should never be placed in the world
 local def = minetest.registered_items[""]
-minetest.register_node("mcr_player:hand", {
+minetest.register_node("rc_player:hand", {
     description = "",
-    tiles = {"mcr_player.png"},
+    tiles = {"rc_player.png"},
     visual_scale = 1,
     tool_capabilities = {
         full_punch_interval = 0.8,
@@ -26,7 +26,7 @@ minetest.register_node("mcr_player:hand", {
     wield_scale = {x=1,y=1,z=1},
     paramtype = "light",
     drawtype = "mesh",
-    mesh = "mcr_player_hand.b3d",
+    mesh = "rc_player_hand.b3d",
     -- Prevent construction
     node_placement_prediction = "",
     on_construct = function(pos)
@@ -46,5 +46,5 @@ minetest.register_node("mcr_player:hand", {
 
 minetest.register_on_joinplayer(function(player)
     player:get_inventory():set_size("hand", 1)
-    player:get_inventory():set_stack("hand", 1, "mcr_player:hand")
+    player:get_inventory():set_stack("hand", 1, "rc_player:hand")
 end)

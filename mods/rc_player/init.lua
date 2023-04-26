@@ -1,4 +1,4 @@
-local modpath = minetest.get_modpath("mcr_player")
+local modpath = minetest.get_modpath("rc_player")
 
 
 dofile(modpath.."/hand.lua")
